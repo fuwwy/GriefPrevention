@@ -1887,8 +1887,11 @@ class PlayerEventHandler implements Listener
             spawn_eggs.add(Material.WOLF_SPAWN_EGG);
             spawn_eggs.add(Material.ZOMBIE_SPAWN_EGG);
             spawn_eggs.add(Material.ZOMBIE_HORSE_SPAWN_EGG);
-            spawn_eggs.add(Material.ZOMBIE_PIGMAN_SPAWN_EGG);
             spawn_eggs.add(Material.ZOMBIE_VILLAGER_SPAWN_EGG);
+            spawn_eggs.add(Material.PIGLIN_SPAWN_EGG);
+            spawn_eggs.add(Material.ZOGLIN_SPAWN_EGG);
+            spawn_eggs.add(Material.HOGLIN_SPAWN_EGG);
+            spawn_eggs.add(Material.STRIDER_SPAWN_EGG);
 
             for (Material material : Material.values())
             {
